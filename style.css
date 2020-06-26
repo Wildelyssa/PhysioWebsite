@@ -2,23 +2,13 @@ body {
 	margin: 0;
 	font-family: Arial, sans-serif;
 	color: rgb(56, 55, 58);
-	display: flex;
-	flex-direction: column;
-}
-
-#navigationBar {
-	background-color: rgba(10, 242, 216, 0.1);
-	font-weight: bold; 
 }
 
 .nav {
-	margin: 0;
 	padding: 0.5rem;
-	display:flex;
-	flex direction: row;
 	justify-content: space-between;
+	display: flex;
 	align-items: center;
-	list-style: none;
 	background: linear-gradient(to bottom right, rgb(48, 174, 171) 20%, rgb(3, 255, 247) 80%);
 	color: white;
 	font-size: 1.25rem;
@@ -38,68 +28,92 @@ body {
 	background: rgb(46, 125, 128);
 }
 
+/*.buttonBook {
+width: 50%;
+height: 20%;
+align-self: flex-end;
+font-size: 0.8rem;
+padding: 0.4rem;
+margin-bottom: 1rem;
+}*/
+
 .nav2 {
-	margin: 0;
+	background: rgba(10, 242, 216, 0.1);
 	padding: 0 0.5rem;
 	display:flex;
-	flex direction: row;
-	justify-content: space-between;
+	justify-content: flex-end;
 	align-items: center;
-	list-style: none;
 }
 
-.navList { 
-	display: flex;
-	flex-direction: row;
-	list-style: none;
-}
-
-.nav2 a {
-	margin: 0;
-	padding: 0.5rem 1rem 0.5rem 1rem;
+.navItem {
+	padding: 1rem 1rem 1rem 1rem;
 	color: rgb(56, 55, 58);
 	text-decoration: none;
 }
 
-.nav2 a:hover {
+.navItem:hover {
 	color: rgb(46, 125, 128);	
 }
 
+.logo {
+	margin: auto auto auto 0;
+}
+
+.title {
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
 .main {
-	padding: 1rem 10rem 1rem 10rem;
+	padding: 4rem;
 	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	justify-content: center;
-	background-image: url("Images/bg1.jpg");
+	align-items: center;
+	background: url("Images/bg1.jpg");
 	background-size: cover;
 }
 
-.main p { 
-	margin-bottom: 0;
-	padding: 0.5rem; 
+.main2 {
+	display: flex;
+	flex-direction: row;
+	align-items: space-between;
+	background: url("Images/bg1.jpg");
+	background-size: cover;
+	padding: 1rem 16rem;
 }
 
+/*if decide to take out button, perhaps blend main and main2 classes*/
+
+/*.main2 h2 {
+	align-self: flex-start;
+}*/
+
 .mainImage { 
+	object-fit: cover;
+	height: 20rem;
+	width: auto;
 	margin-top: 1rem;
-	padding: 0.5rem; 
+	padding: 3rem; 
+}
+
+.aboutBox {
+	padding: 3rem;
 }
 
 .iconList {
+	padding: 2rem;
 	display: flex;
 	flex-direction: row;
 	list-style: none;
 	text-align: center;
 }
 
-.iconList li {
-	margin-left: 0;
-	padding: 1rem 3.5rem;
+.icon {
+	width: 25%;
+	height: 25%;
 }
 
-.icon {
-	width: 20%;
-	height: 20%;
+.options {
+	padding: 3rem;
 }
 
 .wrapper {
@@ -120,10 +134,35 @@ body {
 	
 }
 
-.centre {
+footer {
 	text-align: center;
+	color: white;
+	height: 15%;
+	background: rgb(56, 55, 58, 0.9);
+	display: flex;
+	flex-direction: column;
+}
+
+footer h5 {
+	margin-top: 0.5rem;
+}
+
+footer h3 {
+	margin: 1.5rem 0;
+	font-weight: lighter;
+	letter-spacing: 0.1em;
 }
 
 
+.footerItem {
+	text-decoration: none;
+	color: white;
+	font-size: 2rem;
+	padding: 0.5rem;
+}
+
+.sMedia {
+	padding-bottom: 1.5rem;
+}
 
 
