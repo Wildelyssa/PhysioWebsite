@@ -7,7 +7,7 @@
 * **CSS**
 
 ## Purpose
-A design for a physiotherapy website. 
+A design for a physiotherapy website
 
 ## Features
 * Booking button clearly on navigation bar and at key places throughout design
@@ -23,7 +23,7 @@ A design for a physiotherapy website.
     * Send a message, ask for information, ask a question
     * Book an appointment: links to a mailto link or a booking calendar to book online
   *Book Appointment button: links directly to online calendar to book appoibntment immediately online
-* Add link with within footer, or as a larger section above the footer to join the mailing list: this will apear on every page
+* Add link within footer, or as a larger section above the footer to join the mailing list: this will apear on every page
 * Make the icons on the first page clickable
 * Make a price menu: include a booking button: add emphasis to any ongoing packages or offers with a book now feature for each
 
