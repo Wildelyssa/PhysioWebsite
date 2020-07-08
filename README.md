@@ -13,7 +13,7 @@ A design for a physiotherapy website
 * Booking button clearly on navigation bar and at key places throughout design
 * About us page with introductory information
 * Services page with image and space for text describing servcies and prices. Clear call to action booking button
-* Team members page with image of each team member and space for details sucb as personal statements and services offered
+* Team members page with image of each team member and space for details such as personal statements and services offered
 
 ## Improvements and Edits
 * Responsive: Work on all responsive aspects of the website, no responsive work completed yet and this is important
