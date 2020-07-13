@@ -1,6 +1,6 @@
 # Web Development Project for a Physiotherapy Website
 
-# See live code: https://wildelyssa.github.io/physioWebsite/
+## See live code: https://wildelyssa.github.io/physioWebsite/
 
 ## Tech used
 * **HTML**
@@ -13,7 +13,7 @@ A design for a physiotherapy website which is responsive on smaller and medium s
 * Booking button clearly on navigation bar and at key places throughout design
 * About us page with introductory information
 * Services page with image and space for text describing servcies and prices. Clear call to action booking button
-* Team members page with image of each team member and space for details sucb as personal statements and services offered
+* Team members page with image of each team member and space for details such as personal statements and services offered
 
 ## Improvements and Edits
 * Responsive for Services, and Team pages, and add padding and white space for readability
@@ -26,4 +26,3 @@ A design for a physiotherapy website which is responsive on smaller and medium s
 * Add link with within footer, or as a larger section above the footer to join the mailing list: this will apear on every page
 * Make the package icons clickable
 * Make a price menu: include a booking button: add emphasis to any ongoing packages or offers with a book now feature for each
-
