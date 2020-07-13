@@ -64,7 +64,7 @@ margin-bottom: 1rem;
 	letter-spacing: 0.05em;
 }
 
-.main {
+main {
 	padding: 4rem;
 	display: flex;
 	align-items: center;
@@ -103,7 +103,6 @@ margin-bottom: 1rem;
 	padding: 2rem;
 	display: flex;
 	flex-direction: row;
-	list-style: none;
 	text-align: center;
 }
 
@@ -163,6 +162,106 @@ footer h3 {
 
 .sMedia {
 	padding-bottom: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+
+	nav {
+		font-size: 0.8rem;
+	}
+
+	.nav {
+		font-size: 0.8rem;
+		letter-spacing: 0.05rem;
+	}
+
+	.nav span {
+		width: 30%;
+	}
+
+	.navItem {
+	}
+
+	.button1 {
+		font-size: 0.8rem;
+		padding: 0.4rem;
+	}
+
+	main {
+		flex-direction: column-reverse;
+		padding: 4rem 4rem 3rem 4rem; 
+	}
+
+	.mainImage {
+		margin: 0;
+		padding: 0;
+	}
+
+	.aboutBox {
+		padding: 2rem 0 0 0;
+	}
+
+	.iconList {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: center;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	nav {
+		font-size: 0.6rem;
+	}
+
+	.nav {
+		font-size: 0.6rem;
+		letter-spacing: 0.05rem;
+	}
+
+	.nav span {
+		width: 30%;
+	}
+
+	.navItem {
+		font-size: 0.6rem;
+		padding: 0.6rem 0.2rem;
+	}
+
+	.button1 {
+		font-size: 0.6rem;
+	}
+
+	main {
+		display: flex!important;
+		flex-direction: column-reverse!important;
+		padding: 3rem 3rem 2rem 3rem;
+	}
+
+	.title {
+		margin-bottom: 0;
+	}
+
+	.mainImage {
+		width: 100%;
+		height: auto;
+	}
+
+	.iconList {
+		display: flex;
+		flex-direction: column;
+		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+
+	.button1 {
+		width: 60%;
+	}
+
+	.navItem {
+		font-size: 0.5rem;
+	}
 }
 
 
