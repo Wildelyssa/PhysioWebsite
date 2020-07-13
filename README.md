@@ -5,7 +5,7 @@
 * **CSS**
 
 ## Purpose
-A design for a physiotherapy website. 
+A design for a physiotherapy website which is responsive on smaller and medium sized screens
 
 ## Features
 * Booking button clearly on navigation bar and at key places throughout design
@@ -14,7 +14,6 @@ A design for a physiotherapy website.
 * Team members page with image of each team member and space for details sucb as personal statements and services offered
 
 ## Improvements and Edits
-* Improve responsive design for screens width 800-100px: add "read more links" and edit padding
 * Responsive for Services, and Team pages, and add padding and white space for readability
 * "Booking button" activates JS alert which shows contact details for regular appointments, and emergency, including link to contact form on website 
 * Add a contact form
