@@ -5,7 +5,7 @@ body {
 }
 
 .nav {
-	padding: 0.5rem;
+	padding: 0.5rem 1rem;
 	justify-content: space-between;
 	display: flex;
 	align-items: center;
@@ -36,9 +36,11 @@ body {
 }
 
 .navItem {
-	padding: 1rem 1rem 1rem 1rem;
+	padding: 1rem 2rem 1rem 2rem;
 	color: rgb(56, 55, 58);
 	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .navItem:hover {
@@ -62,13 +64,25 @@ main {
 	background-size: cover;
 }
 
+#about {
+	height: 90vh;
+}
+
 .main2 {
-	display: flex;
+	color: white;
+	font-size: 1rem;
+	/* display: flex;
 	flex-direction: row;
-	align-items: space-between;
-	background: url("Images/bg1.jpg");
-	background-size: cover;
-	padding: 1rem 16rem;
+	align-items: space-between; */
+	/* background: url("Images/bg1.jpg"); */
+	background: linear-gradient(to bottom right, rgb(48, 174, 171, 0.9) 20%, rgb(3, 255, 247, 0.8) 80%);
+	/* background-size: cover; */
+	padding: 0.5rem 1rem;
+}
+
+.line-break {
+	background: rgba(10, 242, 216, 0.1);
+	padding: 2rem;
 }
 
 .mainImage { 
@@ -100,10 +114,9 @@ main {
 }
 
 .wrapper {
-	margin-top: 1rem;
+	margin: 1.5rem;
 	display: grid;
-	grid-template-columns: 25% 25% 25% 25%;
-	text-align: center;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .image {
@@ -113,8 +126,15 @@ main {
 }
 
 .gallery {
-	padding: 1.5rem;
-	
+	padding: 1rem;
+	margin: 1rem;
+	box-shadow: 0 2px 5px rgba(56, 55, 58, 0.4);
+	border-radius: 0.4em;
+}
+
+h4 {
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
 }
 
 footer {
@@ -149,6 +169,10 @@ footer h3 {
 
 @media only screen and (max-width: 850px) {
 
+	#about {
+		height: auto;
+	}
+
 	nav {
 		font-size: 0.8rem;
 	}
@@ -156,10 +180,6 @@ footer h3 {
 	.nav {
 		font-size: 0.8rem;
 		letter-spacing: 0.05rem;
-	}
-
-	.nav span {
-		width: 30%;
 	}
 
 	.button1 {
@@ -181,6 +201,10 @@ footer h3 {
 		padding: 2rem 0 0 0;
 	}
 
+	.wrapper {
+		grid-template-columns: 1fr 1fr;
+	}
+
 	.iconList {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -188,7 +212,7 @@ footer h3 {
 	}
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
 	nav {
 		font-size: 0.6rem;
 	}
@@ -228,13 +252,40 @@ footer h3 {
 
 @media only screen and (max-width: 500px) {
 
+	.wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+
+
+
 	.button1 {
-		width: 60%;
+		font-size: 0.5rem;
 	}
 
 	.navItem {
 		font-size: 0.5rem;
 	}
+
+	.nav2 {
+		padding: 0 0.2rem;
+	}
+
+	.nav span { 
+		font-size: 0.5rem; 
+	}
 }
+
+@media only screen and (max-width: 350px) {
+
+	.nav span {
+		font-size: 0.4rem;
+		}
+
+	.wrapper {
+		margin: 1rem 0.5rem;
+	}
+}
+
 
 
